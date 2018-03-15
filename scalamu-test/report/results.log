@@ -1,0 +1,207 @@
+{
+  "info" : {
+    "id" : {
+      "id" : 6
+    },
+    "mutation" : "NeverExecuteConditionals",
+    "runId" : 1,
+    "packageName" : "unique",
+    "pos" : {
+      "source" : "src/main/scala/Uniquer.scala",
+      "line" : 20,
+      "from" : 555,
+      "to" : 580
+    },
+    "oldTree" : "newValue.<=(highWaterMark)",
+    "mutated" : "false"
+  },
+  "status" : {
+    "NoTestCoverage" : {
+      
+    }
+  }
+}
+{
+  "info" : {
+    "id" : {
+      "id" : 8
+    },
+    "mutation" : "NegateConditionals",
+    "runId" : 1,
+    "packageName" : "unique",
+    "pos" : {
+      "source" : "src/main/scala/Uniquer.scala",
+      "line" : 20,
+      "from" : 555,
+      "to" : 580
+    },
+    "oldTree" : "newValue.<=(highWaterMark)",
+    "mutated" : "newValue.>(highWaterMark)"
+  },
+  "status" : {
+    "NoTestCoverage" : {
+      
+    }
+  }
+}
+{
+  "info" : {
+    "id" : {
+      "id" : 9
+    },
+    "mutation" : "ReplaceWithNil",
+    "runId" : 1,
+    "packageName" : "unique",
+    "pos" : {
+      "source" : "src/main/scala/Uniquer.scala",
+      "line" : 16,
+      "from" : 379,
+      "to" : 389
+    },
+    "oldTree" : "scala.collection.immutable.List.apply[Int](head)",
+    "mutated" : "List.empty[Int]"
+  },
+  "status" : {
+    "NoTestCoverage" : {
+      
+    }
+  }
+}
+{
+  "info" : {
+    "id" : {
+      "id" : 1
+    },
+    "mutation" : "ReplaceCaseWithWildcard",
+    "runId" : 1,
+    "packageName" : "unique",
+    "pos" : {
+      "source" : "src/main/scala/Uniquer.scala",
+      "line" : 14,
+      "from" : 296,
+      "to" : 814
+    },
+    "oldTree" : "list.headOption match {\n  case scala.Some((head @ _)) => {\n    val initialState = scala.Tuple2.apply[Int, List[Int]](head, scala.collection.immutable.List.apply[Int](head));\n    val finalState = list.tail.foldLeft[(Int, List[Int])](initialState)(((currentState: (Int, List[Int]), newValue: Int) => {\n      val highWaterMark = currentState._1;\n      if (newValue.<=(highWaterMark))\n        currentState\n      else\n        {\n          val currentList = currentState._2;\n          scala.Tuple2.apply[Int, List[Int]](newValue, currentList.:+[Int, List[Int]](newValue)(scala.collection.immutable.List.canBuildFrom[Int]))\n        }\n    }));\n    finalState._2\n  }\n  case _ => list\n}",
+    "mutated" : "list.headOption match {\n  case _ => list\n}"
+  },
+  "status" : {
+    "NoTestCoverage" : {
+      
+    }
+  }
+}
+{
+  "info" : {
+    "id" : {
+      "id" : 4
+    },
+    "mutation" : "AlwaysExecuteConditionals",
+    "runId" : 1,
+    "packageName" : "unique",
+    "pos" : {
+      "source" : "src/main/scala/Uniquer.scala",
+      "line" : 20,
+      "from" : 555,
+      "to" : 580
+    },
+    "oldTree" : "newValue.<=(highWaterMark)",
+    "mutated" : "true"
+  },
+  "status" : {
+    "NoTestCoverage" : {
+      
+    }
+  }
+}
+{
+  "info" : {
+    "id" : {
+      "id" : 5
+    },
+    "mutation" : "NeverExecuteConditionals",
+    "runId" : 1,
+    "packageName" : "unique",
+    "pos" : {
+      "source" : "src/main/scala/Uniquer.scala",
+      "line" : 6,
+      "from" : 155,
+      "to" : 173
+    },
+    "oldTree" : "out.contains[T](item)",
+    "mutated" : "false"
+  },
+  "status" : {
+    "NoTestCoverage" : {
+      
+    }
+  }
+}
+{
+  "info" : {
+    "id" : {
+      "id" : 2
+    },
+    "mutation" : "ReplaceWithIdentityFunction",
+    "runId" : 1,
+    "packageName" : "scala",
+    "pos" : {
+      "source" : "src/main/scala/Uniquer.scala",
+      "line" : 34,
+      "from" : 888,
+      "to" : 899
+    },
+    "oldTree" : "list.sorted[Int](scala.math.Ordering.Int)",
+    "mutated" : "list"
+  },
+  "status" : {
+    "NoTestCoverage" : {
+      
+    }
+  }
+}
+{
+  "info" : {
+    "id" : {
+      "id" : 3
+    },
+    "mutation" : "AlwaysExecuteConditionals",
+    "runId" : 1,
+    "packageName" : "unique",
+    "pos" : {
+      "source" : "src/main/scala/Uniquer.scala",
+      "line" : 6,
+      "from" : 155,
+      "to" : 173
+    },
+    "oldTree" : "out.contains[T](item)",
+    "mutated" : "true"
+  },
+  "status" : {
+    "NoTestCoverage" : {
+      
+    }
+  }
+}
+{
+  "info" : {
+    "id" : {
+      "id" : 7
+    },
+    "mutation" : "ReplaceConditionalBoundaries",
+    "runId" : 1,
+    "packageName" : "unique",
+    "pos" : {
+      "source" : "src/main/scala/Uniquer.scala",
+      "line" : 20,
+      "from" : 555,
+      "to" : 580
+    },
+    "oldTree" : "newValue.<=(highWaterMark)",
+    "mutated" : "newValue.<(highWaterMark)"
+  },
+  "status" : {
+    "NoTestCoverage" : {
+      
+    }
+  }
+}

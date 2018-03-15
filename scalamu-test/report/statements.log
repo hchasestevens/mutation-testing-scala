@@ -1,0 +1,529 @@
+{
+  "id" : {
+    "id" : 1
+  },
+  "location" : {
+    "packageName" : "unique",
+    "className" : "Uniquer",
+    "fullClassName" : "unique.Uniquer",
+    "classType" : {
+      "Class" : {
+        
+      }
+    },
+    "method" : "uniqueGeneric",
+    "sourcePath" : "/Users/hchasestevens/scalamu-test/src/main/scala/Uniquer.scala"
+  },
+  "pos" : {
+    "source" : "src/main/scala/Uniquer.scala",
+    "line" : 5,
+    "from" : 99,
+    "to" : 105
+  }
+}
+{
+  "id" : {
+    "id" : 2
+  },
+  "location" : {
+    "packageName" : "unique",
+    "className" : "Uniquer",
+    "fullClassName" : "unique.Uniquer",
+    "classType" : {
+      "Class" : {
+        
+      }
+    },
+    "method" : "uniqueGeneric",
+    "sourcePath" : "/Users/hchasestevens/scalamu-test/src/main/scala/Uniquer.scala"
+  },
+  "pos" : {
+    "source" : "src/main/scala/Uniquer.scala",
+    "line" : 6,
+    "from" : 155,
+    "to" : 173
+  }
+}
+{
+  "id" : {
+    "id" : 3
+  },
+  "location" : {
+    "packageName" : "unique",
+    "className" : "Uniquer",
+    "fullClassName" : "unique.Uniquer",
+    "classType" : {
+      "Class" : {
+        
+      }
+    },
+    "method" : "uniqueGeneric",
+    "sourcePath" : "/Users/hchasestevens/scalamu-test/src/main/scala/Uniquer.scala"
+  },
+  "pos" : {
+    "source" : "src/main/scala/Uniquer.scala",
+    "line" : 7,
+    "from" : 185,
+    "to" : 188
+  }
+}
+{
+  "id" : {
+    "id" : 4
+  },
+  "location" : {
+    "packageName" : "unique",
+    "className" : "Uniquer",
+    "fullClassName" : "unique.Uniquer",
+    "classType" : {
+      "Class" : {
+        
+      }
+    },
+    "method" : "uniqueGeneric",
+    "sourcePath" : "/Users/hchasestevens/scalamu-test/src/main/scala/Uniquer.scala"
+  },
+  "pos" : {
+    "source" : "src/main/scala/Uniquer.scala",
+    "line" : 9,
+    "from" : 216,
+    "to" : 216
+  }
+}
+{
+  "id" : {
+    "id" : 5
+  },
+  "location" : {
+    "packageName" : "unique",
+    "className" : "Uniquer",
+    "fullClassName" : "unique.Uniquer",
+    "classType" : {
+      "Class" : {
+        
+      }
+    },
+    "method" : "uniqueGeneric",
+    "sourcePath" : "/Users/hchasestevens/scalamu-test/src/main/scala/Uniquer.scala"
+  },
+  "pos" : {
+    "source" : "src/main/scala/Uniquer.scala",
+    "line" : 9,
+    "from" : 212,
+    "to" : 223
+  }
+}
+{
+  "id" : {
+    "id" : 6
+  },
+  "location" : {
+    "packageName" : "unique",
+    "className" : "Uniquer",
+    "fullClassName" : "unique.Uniquer",
+    "classType" : {
+      "Class" : {
+        
+      }
+    },
+    "method" : "uniqueGeneric",
+    "sourcePath" : "/Users/hchasestevens/scalamu-test/src/main/scala/Uniquer.scala"
+  },
+  "pos" : {
+    "source" : "src/main/scala/Uniquer.scala",
+    "line" : 9,
+    "from" : 212,
+    "to" : 223
+  }
+}
+{
+  "id" : {
+    "id" : 7
+  },
+  "location" : {
+    "packageName" : "unique",
+    "className" : "Uniquer",
+    "fullClassName" : "unique.Uniquer",
+    "classType" : {
+      "Class" : {
+        
+      }
+    },
+    "method" : "uniqueGeneric",
+    "sourcePath" : "/Users/hchasestevens/scalamu-test/src/main/scala/Uniquer.scala"
+  },
+  "pos" : {
+    "source" : "src/main/scala/Uniquer.scala",
+    "line" : 5,
+    "from" : 85,
+    "to" : 237
+  }
+}
+{
+  "id" : {
+    "id" : 8
+  },
+  "location" : {
+    "packageName" : "unique",
+    "className" : "Uniquer",
+    "fullClassName" : "unique.Uniquer",
+    "classType" : {
+      "Class" : {
+        
+      }
+    },
+    "method" : "highWaterMarks",
+    "sourcePath" : "/Users/hchasestevens/scalamu-test/src/main/scala/Uniquer.scala"
+  },
+  "pos" : {
+    "source" : "src/main/scala/Uniquer.scala",
+    "line" : 14,
+    "from" : 296,
+    "to" : 311
+  }
+}
+{
+  "id" : {
+    "id" : 9
+  },
+  "location" : {
+    "packageName" : "unique",
+    "className" : "Uniquer",
+    "fullClassName" : "unique.Uniquer",
+    "classType" : {
+      "Class" : {
+        
+      }
+    },
+    "method" : "highWaterMarks",
+    "sourcePath" : "/Users/hchasestevens/scalamu-test/src/main/scala/Uniquer.scala"
+  },
+  "pos" : {
+    "source" : "src/main/scala/Uniquer.scala",
+    "line" : 16,
+    "from" : 379,
+    "to" : 389
+  }
+}
+{
+  "id" : {
+    "id" : 10
+  },
+  "location" : {
+    "packageName" : "unique",
+    "className" : "Uniquer",
+    "fullClassName" : "unique.Uniquer",
+    "classType" : {
+      "Class" : {
+        
+      }
+    },
+    "method" : "highWaterMarks",
+    "sourcePath" : "/Users/hchasestevens/scalamu-test/src/main/scala/Uniquer.scala"
+  },
+  "pos" : {
+    "source" : "src/main/scala/Uniquer.scala",
+    "line" : 16,
+    "from" : 372,
+    "to" : 390
+  }
+}
+{
+  "id" : {
+    "id" : 11
+  },
+  "location" : {
+    "packageName" : "unique",
+    "className" : "Uniquer",
+    "fullClassName" : "unique.Uniquer",
+    "classType" : {
+      "Class" : {
+        
+      }
+    },
+    "method" : "highWaterMarks",
+    "sourcePath" : "/Users/hchasestevens/scalamu-test/src/main/scala/Uniquer.scala"
+  },
+  "pos" : {
+    "source" : "src/main/scala/Uniquer.scala",
+    "line" : 19,
+    "from" : 523,
+    "to" : 538
+  }
+}
+{
+  "id" : {
+    "id" : 12
+  },
+  "location" : {
+    "packageName" : "unique",
+    "className" : "Uniquer",
+    "fullClassName" : "unique.Uniquer",
+    "classType" : {
+      "Class" : {
+        
+      }
+    },
+    "method" : "highWaterMarks",
+    "sourcePath" : "/Users/hchasestevens/scalamu-test/src/main/scala/Uniquer.scala"
+  },
+  "pos" : {
+    "source" : "src/main/scala/Uniquer.scala",
+    "line" : 20,
+    "from" : 555,
+    "to" : 580
+  }
+}
+{
+  "id" : {
+    "id" : 13
+  },
+  "location" : {
+    "packageName" : "unique",
+    "className" : "Uniquer",
+    "fullClassName" : "unique.Uniquer",
+    "classType" : {
+      "Class" : {
+        
+      }
+    },
+    "method" : "highWaterMarks",
+    "sourcePath" : "/Users/hchasestevens/scalamu-test/src/main/scala/Uniquer.scala"
+  },
+  "pos" : {
+    "source" : "src/main/scala/Uniquer.scala",
+    "line" : 21,
+    "from" : 598,
+    "to" : 610
+  }
+}
+{
+  "id" : {
+    "id" : 14
+  },
+  "location" : {
+    "packageName" : "unique",
+    "className" : "Uniquer",
+    "fullClassName" : "unique.Uniquer",
+    "classType" : {
+      "Class" : {
+        
+      }
+    },
+    "method" : "highWaterMarks",
+    "sourcePath" : "/Users/hchasestevens/scalamu-test/src/main/scala/Uniquer.scala"
+  },
+  "pos" : {
+    "source" : "src/main/scala/Uniquer.scala",
+    "line" : 23,
+    "from" : 664,
+    "to" : 679
+  }
+}
+{
+  "id" : {
+    "id" : 15
+  },
+  "location" : {
+    "packageName" : "unique",
+    "className" : "Uniquer",
+    "fullClassName" : "unique.Uniquer",
+    "classType" : {
+      "Class" : {
+        
+      }
+    },
+    "method" : "highWaterMarks",
+    "sourcePath" : "/Users/hchasestevens/scalamu-test/src/main/scala/Uniquer.scala"
+  },
+  "pos" : {
+    "source" : "src/main/scala/Uniquer.scala",
+    "line" : 24,
+    "from" : 717,
+    "to" : 717
+  }
+}
+{
+  "id" : {
+    "id" : 16
+  },
+  "location" : {
+    "packageName" : "unique",
+    "className" : "Uniquer",
+    "fullClassName" : "unique.Uniquer",
+    "classType" : {
+      "Class" : {
+        
+      }
+    },
+    "method" : "highWaterMarks",
+    "sourcePath" : "/Users/hchasestevens/scalamu-test/src/main/scala/Uniquer.scala"
+  },
+  "pos" : {
+    "source" : "src/main/scala/Uniquer.scala",
+    "line" : 24,
+    "from" : 705,
+    "to" : 728
+  }
+}
+{
+  "id" : {
+    "id" : 17
+  },
+  "location" : {
+    "packageName" : "unique",
+    "className" : "Uniquer",
+    "fullClassName" : "unique.Uniquer",
+    "classType" : {
+      "Class" : {
+        
+      }
+    },
+    "method" : "highWaterMarks",
+    "sourcePath" : "/Users/hchasestevens/scalamu-test/src/main/scala/Uniquer.scala"
+  },
+  "pos" : {
+    "source" : "src/main/scala/Uniquer.scala",
+    "line" : 24,
+    "from" : 694,
+    "to" : 729
+  }
+}
+{
+  "id" : {
+    "id" : 18
+  },
+  "location" : {
+    "packageName" : "unique",
+    "className" : "Uniquer",
+    "fullClassName" : "unique.Uniquer",
+    "classType" : {
+      "Class" : {
+        
+      }
+    },
+    "method" : "highWaterMarks",
+    "sourcePath" : "/Users/hchasestevens/scalamu-test/src/main/scala/Uniquer.scala"
+  },
+  "pos" : {
+    "source" : "src/main/scala/Uniquer.scala",
+    "line" : 22,
+    "from" : 630,
+    "to" : 743
+  }
+}
+{
+  "id" : {
+    "id" : 19
+  },
+  "location" : {
+    "packageName" : "unique",
+    "className" : "Uniquer",
+    "fullClassName" : "unique.Uniquer",
+    "classType" : {
+      "Class" : {
+        
+      }
+    },
+    "method" : "highWaterMarks",
+    "sourcePath" : "/Users/hchasestevens/scalamu-test/src/main/scala/Uniquer.scala"
+  },
+  "pos" : {
+    "source" : "src/main/scala/Uniquer.scala",
+    "line" : 17,
+    "from" : 416,
+    "to" : 765
+  }
+}
+{
+  "id" : {
+    "id" : 20
+  },
+  "location" : {
+    "packageName" : "unique",
+    "className" : "Uniquer",
+    "fullClassName" : "unique.Uniquer",
+    "classType" : {
+      "Class" : {
+        
+      }
+    },
+    "method" : "highWaterMarks",
+    "sourcePath" : "/Users/hchasestevens/scalamu-test/src/main/scala/Uniquer.scala"
+  },
+  "pos" : {
+    "source" : "src/main/scala/Uniquer.scala",
+    "line" : 28,
+    "from" : 774,
+    "to" : 787
+  }
+}
+{
+  "id" : {
+    "id" : 21
+  },
+  "location" : {
+    "packageName" : "unique",
+    "className" : "Uniquer",
+    "fullClassName" : "unique.Uniquer",
+    "classType" : {
+      "Class" : {
+        
+      }
+    },
+    "method" : "uniqueInts",
+    "sourcePath" : "/Users/hchasestevens/scalamu-test/src/main/scala/Uniquer.scala"
+  },
+  "pos" : {
+    "source" : "src/main/scala/Uniquer.scala",
+    "line" : 34,
+    "from" : 893,
+    "to" : 893
+  }
+}
+{
+  "id" : {
+    "id" : 22
+  },
+  "location" : {
+    "packageName" : "unique",
+    "className" : "Uniquer",
+    "fullClassName" : "unique.Uniquer",
+    "classType" : {
+      "Class" : {
+        
+      }
+    },
+    "method" : "uniqueInts",
+    "sourcePath" : "/Users/hchasestevens/scalamu-test/src/main/scala/Uniquer.scala"
+  },
+  "pos" : {
+    "source" : "src/main/scala/Uniquer.scala",
+    "line" : 34,
+    "from" : 888,
+    "to" : 899
+  }
+}
+{
+  "id" : {
+    "id" : 23
+  },
+  "location" : {
+    "packageName" : "unique",
+    "className" : "Uniquer",
+    "fullClassName" : "unique.Uniquer",
+    "classType" : {
+      "Class" : {
+        
+      }
+    },
+    "method" : "uniqueInts",
+    "sourcePath" : "/Users/hchasestevens/scalamu-test/src/main/scala/Uniquer.scala"
+  },
+  "pos" : {
+    "source" : "src/main/scala/Uniquer.scala",
+    "line" : 34,
+    "from" : 873,
+    "to" : 900
+  }
+}

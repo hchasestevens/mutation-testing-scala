@@ -1,0 +1,709 @@
+
+
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/scala.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/github.min.css">
+    <script>hljs.initHighlightingOnLoad();</script>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+        @import url(&#x27;https://fonts.googleapis.com/css?family=Fira+Mono|Raleway&#x27;);
+
+html,
+body,
+div,
+span,
+p,
+blockquote,
+pre {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+.meter {
+    height: 16px;
+    position: relative;
+    background: #BB2020;
+}
+.meter span {
+    display: block;
+    height: 100%;
+    background-color: rgb(43, 194, 83);
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(43, 194, 83)), color-stop(1, rgb(84, 240, 84)));
+    background-image: -webkit-linear-gradient( center bottom, rgb(43, 194, 83) 37%, rgb(84, 240, 84) 69%);
+    background-image: -moz-linear-gradient( center bottom, rgb(43, 194, 83) 37%, rgb(84, 240, 84) 69%);
+    background-image: -ms-linear-gradient( center bottom, rgb(43, 194, 83) 37%, rgb(84, 240, 84) 69%);
+    background-image: -o-linear-gradient( center bottom, rgb(43, 194, 83) 37%, rgb(84, 240, 84) 69%);
+    -webkit-box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+    position: relative;
+    overflow: hidden;
+}
+.popover {
+  max-width: 100%;
+}
+.popover-content {
+  font-size: 15px;
+  font-family: Fira Code, Fira Mono, monospace;
+}
+th {
+    text-align: left;
+}
+body {
+    line-height: 1;
+    color: black;
+    background: white;
+    font-family: Raleway, sans-serif;
+}
+code, pre {
+    font-family: Fira Mono, monospace;
+}
+alert { 
+    border: 0;
+    border-radius: 0;
+}
+.src {
+    padding: 0;
+}
+.hljs {
+    padding: 1px;
+}
+.covered {
+    background-color: #aaffaa
+}
+.uncovered {
+    background-color: #ffaaaa
+}
+.na {
+    background-color: #f8f8f8
+}
+.killed {
+    background-color: #aaffaa
+}
+.no_coverage {
+    background-color: #ffaaaa
+}
+.alive {
+    background-color: #ffaaaa
+}
+.failure {
+    background-color: #FFFF4D;
+}
+.timed_out {
+    background-color: #FFFF4D;
+}
+.oom {
+    background-color: #FFFF4D;
+}
+.untested {
+    background-color: #FFFF4D
+}
+.mono {
+    font-family: Fira Mono, monospace;
+}
+
+    </style>
+</head>
+<body>
+<div class="alert alert-info">
+    <strong>Uniquer.scala</strong>
+</div>
+
+<table class="src" style="font-size:13px">
+    
+    
+    <tr id="line1">
+        <td class=na>
+            1
+        </td>
+        <td class="na">
+            <a href="#group1"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">package unique </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line2">
+        <td class=na>
+            2
+        </td>
+        <td class="na">
+            <a href="#group2"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na"> </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line3">
+        <td class=na>
+            3
+        </td>
+        <td class="na">
+            <a href="#group3"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">class Uniquer { </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line4">
+        <td class=na>
+            4
+        </td>
+        <td class="na">
+            <a href="#group4"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">  def uniqueGeneric[T](list: List[T]): List[T] = </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line5">
+        <td class=na>
+            5
+        </td>
+        <td class="na">
+            <a href="#group5"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">    list.foldLeft(List(): List[T]) { (out: List[T], item: T) =&gt; </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line6">
+        <td class=uncovered>
+            6
+        </td>
+        <td class="uncovered">
+            <a href="#group6"><b>2</b></a>
+        </td>
+        <td width="99%" class="uncovered">
+            <pre><code class="scala uncovered">      if (out.contains(item)) { </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line7">
+        <td class=na>
+            7
+        </td>
+        <td class="na">
+            <a href="#group7"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">        out </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line8">
+        <td class=na>
+            8
+        </td>
+        <td class="na">
+            <a href="#group8"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">      } else { </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line9">
+        <td class=na>
+            9
+        </td>
+        <td class="na">
+            <a href="#group9"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">        out :+ item </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line10">
+        <td class=na>
+            10
+        </td>
+        <td class="na">
+            <a href="#group10"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">      } </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line11">
+        <td class=na>
+            11
+        </td>
+        <td class="na">
+            <a href="#group11"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">    } </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line12">
+        <td class=na>
+            12
+        </td>
+        <td class="na">
+            <a href="#group12"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na"> </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line13">
+        <td class=na>
+            13
+        </td>
+        <td class="na">
+            <a href="#group13"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">  def highWaterMarks(list: List[Int]): List[Int] = { </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line14">
+        <td class=uncovered>
+            14
+        </td>
+        <td class="uncovered">
+            <a href="#group14"><b>1</b></a>
+        </td>
+        <td width="99%" class="uncovered">
+            <pre><code class="scala uncovered">    list.headOption match { </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line15">
+        <td class=na>
+            15
+        </td>
+        <td class="na">
+            <a href="#group15"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">      case Some(head) =&gt; </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line16">
+        <td class=covered>
+            16
+        </td>
+        <td class="covered">
+            <a href="#group16"><b>1</b></a>
+        </td>
+        <td width="99%" class="covered">
+            <pre><code class="scala covered">        val initialState = (head, List(head)) </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line17">
+        <td class=na>
+            17
+        </td>
+        <td class="na">
+            <a href="#group17"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">        val finalState = list.tail.foldLeft(initialState) { </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line18">
+        <td class=na>
+            18
+        </td>
+        <td class="na">
+            <a href="#group18"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">          (currentState, newValue) =&gt; { </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line19">
+        <td class=na>
+            19
+        </td>
+        <td class="na">
+            <a href="#group19"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">            val highWaterMark = currentState._1 </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line20">
+        <td class=uncovered>
+            20
+        </td>
+        <td class="uncovered">
+            <a href="#group20"><b>4</b></a>
+        </td>
+        <td width="99%" class="uncovered">
+            <pre><code class="scala uncovered">            if (newValue &lt;= highWaterMark) { </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line21">
+        <td class=na>
+            21
+        </td>
+        <td class="na">
+            <a href="#group21"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">              currentState </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line22">
+        <td class=na>
+            22
+        </td>
+        <td class="na">
+            <a href="#group22"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">            } else { </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line23">
+        <td class=na>
+            23
+        </td>
+        <td class="na">
+            <a href="#group23"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">              val currentList = currentState._2 </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line24">
+        <td class=na>
+            24
+        </td>
+        <td class="na">
+            <a href="#group24"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">              (newValue, currentList :+ newValue) </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line25">
+        <td class=na>
+            25
+        </td>
+        <td class="na">
+            <a href="#group25"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">            } </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line26">
+        <td class=na>
+            26
+        </td>
+        <td class="na">
+            <a href="#group26"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">          } </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line27">
+        <td class=na>
+            27
+        </td>
+        <td class="na">
+            <a href="#group27"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">        } </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line28">
+        <td class=na>
+            28
+        </td>
+        <td class="na">
+            <a href="#group28"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">        finalState._2 </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line29">
+        <td class=na>
+            29
+        </td>
+        <td class="na">
+            <a href="#group29"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">      case _ =&gt; list </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line30">
+        <td class=na>
+            30
+        </td>
+        <td class="na">
+            <a href="#group30"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">    } </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line31">
+        <td class=na>
+            31
+        </td>
+        <td class="na">
+            <a href="#group31"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">  } </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line32">
+        <td class=na>
+            32
+        </td>
+        <td class="na">
+            <a href="#group32"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na"> </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line33">
+        <td class=na>
+            33
+        </td>
+        <td class="na">
+            <a href="#group33"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">  def uniqueInts(list: List[Int]): List[Int] = { </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line34">
+        <td class=na>
+            34
+        </td>
+        <td class="na">
+            <a href="#group34"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">    highWaterMarks(list.sorted) </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line35">
+        <td class=na>
+            35
+        </td>
+        <td class="na">
+            <a href="#group35"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">  } </code></pre>
+        </td>
+    </tr>
+    
+    <tr id="line36">
+        <td class=na>
+            36
+        </td>
+        <td class="na">
+            <a href="#group36"><b></b></a>
+        </td>
+        <td width="99%" class="na">
+            <pre><code class="scala na">} </code></pre>
+        </td>
+    </tr>
+    
+</table>
+
+<h2>Mutants</h2>
+<table class="src" cellpadding="3px">
+    
+    <tr>
+        <td>
+            <a href="#line6" id="group6">6</a>
+        </td>
+        <td width="99%">
+            
+                <pre class="no_coverage mutant" data-toggle="popover" 
+                     data-placement="auto top" data-html="true" 
+                     title="Mutation" data-trigger="hover" 
+                     data-content="
+Original: &lt;pre&gt;&lt;code&gt;out.contains[T](item)&lt;/code&gt;&lt;/pre&gt;
+&lt;br&gt;
+Mutated: &lt;pre&gt;&lt;code&gt;true&lt;/code&gt;&lt;/pre&gt;
+     ">Replaced conditional with its &quot;then&quot; branch        -&gt; NoTestCoverage</pre>
+            
+                <pre class="no_coverage mutant" data-toggle="popover" 
+                     data-placement="auto top" data-html="true" 
+                     title="Mutation" data-trigger="hover" 
+                     data-content="
+Original: &lt;pre&gt;&lt;code&gt;out.contains[T](item)&lt;/code&gt;&lt;/pre&gt;
+&lt;br&gt;
+Mutated: &lt;pre&gt;&lt;code&gt;false&lt;/code&gt;&lt;/pre&gt;
+     ">Replaced conditional with its &quot;else&quot; branch        -&gt; NoTestCoverage</pre>
+            
+        </td>
+    </tr>
+    <tr></tr>
+    
+    <tr>
+        <td>
+            <a href="#line14" id="group14">14</a>
+        </td>
+        <td width="99%">
+            
+                <pre class="alive mutant" data-toggle="popover" 
+                     data-placement="auto top" data-html="true" 
+                     title="Mutation" data-trigger="hover" 
+                     data-content="
+Original: &lt;pre&gt;&lt;code&gt;list.headOption match {
+  case scala.Some((head @ _)) =&gt; {
+    val initialState = scala.Tuple2.apply[Int, List[Int]](head, scala.collection.immutable.List.apply[Int](head));
+    val finalState = list.tail.foldLeft[(Int, List[Int])](initialState)(((currentState: (Int, List[Int]), newValue: Int) =&gt; {
+      val highWaterMark = currentState._1;
+      if (newValue.&lt;=(highWaterMark))
+        currentState
+      else
+        {
+          val currentList = currentState._2;
+          scala.Tuple2.apply[Int, List[Int]](newValue, currentList.:+[Int, List[Int]](newValue)(scala.collection.immutable.List.canBuildFrom[Int]))
+        }
+    }));
+    finalState._2
+  }
+  case _ =&gt; list
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;br&gt;
+Mutated: &lt;pre&gt;&lt;code&gt;list.headOption match {
+  case _ =&gt; list
+}&lt;/code&gt;&lt;/pre&gt;
+     ">Replaced pattern match with wildcard case          -&gt; Alive</pre>
+            
+        </td>
+    </tr>
+    <tr></tr>
+    
+    <tr>
+        <td>
+            <a href="#line16" id="group16">16</a>
+        </td>
+        <td width="99%">
+            
+                <pre class="killed mutant" data-toggle="popover" 
+                     data-placement="auto top" data-html="true" 
+                     title="Mutation" data-trigger="hover" 
+                     data-content="
+Original: &lt;pre&gt;&lt;code&gt;scala.collection.immutable.List.apply[Int](head)&lt;/code&gt;&lt;/pre&gt;
+&lt;br&gt;
+Mutated: &lt;pre&gt;&lt;code&gt;List.empty[Int]&lt;/code&gt;&lt;/pre&gt;
+     ">Replaced List.apply[T] with Nil                    -&gt; Killed by scalatest.UniquerSpec</pre>
+            
+        </td>
+    </tr>
+    <tr></tr>
+    
+    <tr>
+        <td>
+            <a href="#line20" id="group20">20</a>
+        </td>
+        <td width="99%">
+            
+                <pre class="alive mutant" data-toggle="popover" 
+                     data-placement="auto top" data-html="true" 
+                     title="Mutation" data-trigger="hover" 
+                     data-content="
+Original: &lt;pre&gt;&lt;code&gt;newValue.&lt;=(highWaterMark)&lt;/code&gt;&lt;/pre&gt;
+&lt;br&gt;
+Mutated: &lt;pre&gt;&lt;code&gt;newValue.&lt;(highWaterMark)&lt;/code&gt;&lt;/pre&gt;
+     ">Modified conditional boundary                      -&gt; Alive</pre>
+            
+                <pre class="killed mutant" data-toggle="popover" 
+                     data-placement="auto top" data-html="true" 
+                     title="Mutation" data-trigger="hover" 
+                     data-content="
+Original: &lt;pre&gt;&lt;code&gt;newValue.&lt;=(highWaterMark)&lt;/code&gt;&lt;/pre&gt;
+&lt;br&gt;
+Mutated: &lt;pre&gt;&lt;code&gt;true&lt;/code&gt;&lt;/pre&gt;
+     ">Replaced conditional with its &quot;then&quot; branch        -&gt; Killed by scalatest.UniquerSpec</pre>
+            
+                <pre class="killed mutant" data-toggle="popover" 
+                     data-placement="auto top" data-html="true" 
+                     title="Mutation" data-trigger="hover" 
+                     data-content="
+Original: &lt;pre&gt;&lt;code&gt;newValue.&lt;=(highWaterMark)&lt;/code&gt;&lt;/pre&gt;
+&lt;br&gt;
+Mutated: &lt;pre&gt;&lt;code&gt;newValue.&gt;(highWaterMark)&lt;/code&gt;&lt;/pre&gt;
+     ">Negated conditional operator                       -&gt; Killed by scalatest.UniquerSpec</pre>
+            
+                <pre class="alive mutant" data-toggle="popover" 
+                     data-placement="auto top" data-html="true" 
+                     title="Mutation" data-trigger="hover" 
+                     data-content="
+Original: &lt;pre&gt;&lt;code&gt;newValue.&lt;=(highWaterMark)&lt;/code&gt;&lt;/pre&gt;
+&lt;br&gt;
+Mutated: &lt;pre&gt;&lt;code&gt;false&lt;/code&gt;&lt;/pre&gt;
+     ">Replaced conditional with its &quot;else&quot; branch        -&gt; Alive</pre>
+            
+        </td>
+    </tr>
+    <tr></tr>
+    
+</table>
+
+<h2>Examined tests</h2>
+<ol>
+    
+      <li class="mono" style="white-space:pre;">ScalaTest test: scalatest.UniquerSpec</li>
+    
+</ol>
+<br/>
+
+<script>
+    $(document).ready(function(){
+      $('[data-toggle="popover"]').popover({ container: 'body' });
+    });
+</script>
+
+</body>
+</html>
